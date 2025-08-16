@@ -1,16 +1,49 @@
-# task_manager
+# Task Manager Flutter App
 
-A new Flutter project.
+A simple Flutter app to **add, update, complete, and delete tasks** with local storage using **SharedPreferences**.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Add and update tasks (title, date, priority)
+- Mark tasks as completed
+- View completed tasks
+- Delete tasks
+- Dynamic task count in AppBar
+- Clean and simple UI
 
-A few resources to get you started if this is your first Flutter project:
+## Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Clone the repository:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+git clone https://github.com/<your-username>/<repo-name>.git
+
+
+2. Go to the project folder:
+
+cd <repo-name>
+
+3. Install dependencies:
+
+flutter pub get
+
+4. Run the app:
+
+flutter run
+
+
+## Usage
+
+- + Button: Add a new task
+- Tap task: Edit or update task
+- Checkbox: Mark task as completed
+- Trash icon: Delete task
+- Check icon (AppBar): View completed tasks
+
+## Dependencies
+
+- flutter
+- shared_preferences
+
+## License
+
+MIT License
