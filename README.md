@@ -13,27 +13,17 @@ A simple Flutter app to **add, update, complete, and delete tasks** with local s
 
 ## Installation
 
-1. Clone the repository:
-
-git clone https://github.com/<your-username>/<repo-name>.git
-
+1. Clone the repository: git clone https://github.com/<your-username>/<repo-name>.git
 
 2. Go to the project folder:
 
-cd <repo-name>
-
 3. Install dependencies:
-
-flutter pub get
 
 4. Run the app:
 
-flutter run
-
-
 ## Usage
 
-- + Button: Add a new task
+- Button: Add a new task
 - Tap task: Edit or update task
 - Checkbox: Mark task as completed
 - Trash icon: Delete task
